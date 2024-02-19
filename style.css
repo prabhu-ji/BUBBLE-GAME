@@ -116,3 +116,42 @@ h2 {
 #scoreValue {
     font-size: 24px; /* Larger font size */
 }
+
+
+
+/* Existing styles */
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    #panel {
+        width: 90%; /* Adjust panel width for smaller screens */
+    }
+
+    #ptop {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Remove fixed height */
+        padding-bottom: 20px; /* Add some space at the bottom */
+    }
+
+    .elem {
+        margin-bottom: 20px; /* Add space between elements */
+    }
+
+    .bubble {
+        width: 40px; /* Adjust bubble size for smaller screens */
+        height: 40px;
+        font-size: 14px; /* Decrease font size */
+    }
+
+    #gameOver, #scoreMessage {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    #scoreMessage {
+        font-size: 20px; /* Decrease font size */
+    }
+
+    h1 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+}
