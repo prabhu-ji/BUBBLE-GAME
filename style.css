@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; /* Change font to Poppins */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+#header {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#panel {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #f7f7f7; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ptop {
+    padding: 20px 0; /* Adjusted padding */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff; /* White text */
+    height: 100px;
+    background-color: #8a63ff; /* Purple background */
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px; /* Larger font size */
+    font-weight:500 /* Bold text */
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.box {
+    color: #8a63ff; /* Purple text */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Decreased font size */
+    padding: 10px;
+    background-color: #ffffff; /* White background */
+    border-radius: 5px;
+}
+
+.bubble {
+    width: 50px;
+    height: 50px;
+    background-color: #8a63ff; /* Purple background */
+    color: #ffffff; /* White text */
+    border-radius: 50%;
+    display: inline-flex;
+    margin: 2px; /* Adjusted margin */
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s; /* Smooth transition */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.bubble:hover {
+    background-color: #6a3dff; /* Darker purple on hover */
+}
+
+#pbtm {
+    display: flex;
+    gap: 10px; /* Adjusted gap */
+    flex-wrap: wrap;
+    padding: 10px; /* Adjusted padding */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 130px); /* Adjusted height */
+}
+
+#gameOver, #scoreMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold; /* Bold text */
+    color: #8a63ff; /* Purple text */
+}
+
+#scoreMessage {
+    font-size: 20px; /* Smaller font size */
+}
+
+#scoreValue {
+    font-size: 24px; /* Larger font size */
+}

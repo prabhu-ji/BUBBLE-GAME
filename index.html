@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>BUBBLE GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="main">
+        <div id="header">
+            <h1>Welcome to Bubble Game</h1>
+        </div>
+        <div id="panel">
+            <div id="ptop">
+                <div class="elem">
+                    <h2>Hit Value</h2>
+                    <div class="box" id="hitval">0</div>
+                </div>
+                <div class="elem">
+                    <h2>Duration</h2>
+                    <div class="box" id="timerbox">30</div>
+                </div>
+                <div class="elem">
+                    <h2>Score</h2>
+                    <div class="box" id="scoreval">0</div>
+                </div>
+            </div>
+            <div id="pbtm"></div>
+            <div id="gameOver" style="display: none;">
+                <h1 style="font-size: 50px; font-weight: bold;">GAME OVER</h1>
+            </div>
+            <div id="scoreMessage" style="display: none;">
+                <h1>Your Score:</h1>
+                <div id="finalScore"></div>
+            </div>
+        </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
